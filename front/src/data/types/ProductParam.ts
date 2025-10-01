@@ -1,0 +1,54 @@
+import {RoleBean} from './RoleParam';
+import {ImageBean} from './UtilityParams';
+
+export type ProductBean = {
+  categories_id?: number;
+  category_id?: number;
+  category_name?: string;
+  city_id?: number;
+  city_name?: string;
+  country_id?: number;
+  product_id?: string;
+  product_name?: string;
+  country_name?: string;
+  description?: string;
+  state?: string;
+  roles_id?: string;
+  id?: number;
+  image?: null;
+  image_url?: string;
+  is_likes?: number;
+  main_category_name?: string;
+  other_details?: string;
+  price?: number;
+  requirment_id?: number;
+  requirment_name?: string;
+  review_avg_rating?: null;
+  review_count?: number;
+  role_id?: string;
+  roles?: RoleBean[];
+  longitude?: number;
+  latitude?: number;
+  state_id?: number;
+  state_name?: string;
+  sub_category_id?: number;
+  sub_category_name?: string;
+  user_code?: string;
+  user_id?: number;
+  user_mobile_number?: string;
+  user_name?: string;
+  user_profile_url?: string;
+  view_counter?: number;
+  images?: ImageBean[];
+  created_at?: string;
+  establishment_year?: string;
+  main_category_image_url?: string;
+  address?: string;
+  what_manufacturer: ManufacturerBean[];
+  selected_role: RoleBean[];
+};
+
+export type ManufacturerBean = {
+  id?: number;
+  value?: string;
+};

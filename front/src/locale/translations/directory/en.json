@@ -1,0 +1,12 @@
+{
+  "noDirectoryFound": "No directory found",
+  "city": "City",
+  "allCities": "All Cities",
+  "foundInCities": "{{category}} Found in {{total}} Cities",
+  "foundIn": "{{category}} Found in {{city}}",
+  "foundInCity": "{{category}} Found in {{city}} city",
+  "product": "Product",
+  "searchHere": "Search Here...",
+  "status": "Status",
+  "supplierType": "Supplier Type"
+}

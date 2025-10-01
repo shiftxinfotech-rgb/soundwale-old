@@ -1,0 +1,17 @@
+export const Images = {
+  registerTopMask: require('./register_top_mask.png'),
+  loginTopMask: require('./login_top_mask.png'),
+  loginBottomMask: require('./login_bottom_mask.png'),
+  loginImage: require('./login_image.png'),
+  verificationImage: require('./verification_image.png'),
+  shapeLeft: require('./wave_left.png'),
+  shapeRight: require('./wave_right.png'),
+  advertisement: require('./advertisement.png'),
+  filterTopMask: require('./filter_top_mask.png'),
+  noData: require('./no_data.png'),
+  homeBusiness: require('./home_business.png'),
+  noImage: require('./no_image.png'),
+  refillOne: require('./refill_one.png'),
+  refillTwo: require('./refill_two.png'),
+  splashImg: require('./splash_img.png'),
+};
